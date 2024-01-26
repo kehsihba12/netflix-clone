@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    ;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/bgimg.jpg);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    height: 62px;
+
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 110px;
+    font-size: 100px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 22px;
+    padding: 0px 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: cnetr;
+
+}
+
+.separation {
+    height: 7px;
+    background-color: grey;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-n {
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 10px 38px;
+    font-size: 18px;
+
+
+}
+
+.btn-red-sm {
+    background-color: red;
+}
+
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 900;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+.first {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    max-width: 70vw;
+    justify-self: center;
+    height: 580px;
+}
+
+.secImg {
+    position: relative;
+    background-color: black;
+
+
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.secImg video {
+    position: absolute;
+    right: 0px;
+    top: 51px;
+
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+
+}
+
+
+.faq h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 34px;
+}
+
+.faq h1:hover{
+    color: red;
+}
+.faqbox {
+    display: flex;
+    background-color: rgba(123, 126, 129, 0.536);
+    padding: 24px;
+    max-width: 70vw;
+    align-items: center;
+    margin: 10px auto;
+    justify-content: space-between;
+    font-size: 24px;
+
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+
+}
+
+.faqbox:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+
+.footer-btn h2{
+    text-align: center;
+}
+
+.footer-btn h2:hover {
+    color: blanchedalmond;
+}
+
+
+.footer-btn {
+    gap: 20px;
+    color: white;
+}
+
+.footer-btn div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px auto;
+    gap: 20px;
+    padding: 24px 16px 8px;
+    font-size: 16px ;
+}
+
+.footer-btn div button {
+    height: 40px;
+    width: 160px;
+    background-color: rgba(182, 6, 6, 0.71);
+    color: white;
+}
+
+.footer-btn div button:hover {
+    border: 1px solid white;
+    background-color: brown;
+}
+
+.footer-btn div input {
+    height: 40px;
+    width: 200px;
+    background-color: rgba(123, 126, 129, 0.536);
+}
+
+.footer-btn div input:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+footer div {
+   color: white;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: black; 
+    font-size: 40px;
+    margin: auto;
+    color: red;
+}
+
+footer {
+    height: 200px ;
+}
+
+footer h2 {
+    color: white;
+    font-size: 35px;
+}
